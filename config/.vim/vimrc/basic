@@ -1,0 +1,40 @@
+" useful (some are usually default)
+set encoding=utf-8
+set scrolloff=3             " keep lines on top/bottom
+set autoindent
+set showmode                " show current mode
+set showcmd                 " show partially typed cmds
+set ruler                   " always show line and column
+set hidden                  " hide buffer instead of closing
+set wildmenu                " show matching auto completion cmds
+set wildmode=list:longest   " only complete to longest match
+set visualbell              " disable fucking annoying beeping
+set cursorline              " highlight current line
+set ttyfast                 " redrawing stuff
+set backspace=2             " allow backspacing over lines
+set laststatus=2            " always show status line
+set number
+if version >= 703
+  set relativenumber
+endif
+
+
+syntax on
+
+filetype plugin indent on
+
+" tab behaviour
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+" search options
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set gdefault                " use /g option by default for :s
+set incsearch               " show hl increments when typing
+set showmatch
+set hlsearch
+nmap <silent> <leader>/ :nohlsearch<CR>

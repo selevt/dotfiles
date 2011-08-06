@@ -14,26 +14,7 @@ set modelines=0
 au BufNewFile,BufRead .vim/vimrc/* set filetype=vim
 
 source $HOME/.vim/vimrc/colors
-
-" useful (some are usually default)
-set encoding=utf-8
-set scrolloff=3             " keep lines on top/bottom
-set autoindent
-set showmode                " show current mode
-set showcmd                 " show partially typed cmds
-set ruler                   " always show line and column
-set hidden                  " hide buffer instead of closing
-set wildmenu                " show matching auto completion cmds
-set wildmode=list:longest   " only complete to longest match
-set visualbell              " disable fucking annoying beeping
-set cursorline              " highlight current line
-set ttyfast                 " redrawing stuff
-set backspace=2             " allow backspacing over lines
-set laststatus=2            " always show status line
-set number
-if version >= 703
-  set relativenumber
-endif
+source $HOME/.vim/vimrc/basic
 
 " edit/reload of vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
@@ -43,27 +24,6 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 map <silent> <leader>p i<F2><C-r>+<F2><esc>
 
 set pastetoggle=<F2>
-
-
-syntax on
-
-filetype plugin indent on
-
-" tab behaviour
-set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-
-" search options
-nnoremap / /\v
-vnoremap / /\v
-set ignorecase
-set gdefault                " use /g option by default for :s
-set incsearch               " show hl increments when typing
-set showmatch
-set hlsearch
-nmap <silent> <leader>/ :nohlsearch<CR>
 
 " tab -> bracket pairs
 nnoremap <tab> %
@@ -99,4 +59,3 @@ nmap <leader>m :q<CR><C-w>jf{lyt,:q<CR><C-w>lp
 """"" macros
 " macro for RST-style headers
 let @h = "yypVr"
-
