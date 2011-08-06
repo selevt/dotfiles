@@ -15,6 +15,7 @@ directory
 Content
 -------
 * VIM config and plugins:
+ * color: molokai
  * nerd commenter
  * nerd tree
  * vim-latex
@@ -23,5 +24,4 @@ Content
 TODO
 ----
 * move .bashrc / .zshrc files
-* move .vimrc .vim files
 * create script to remove/backup old files in ~
