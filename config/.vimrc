@@ -10,13 +10,10 @@ let mapleader=","
 set nocompatible
 set modelines=0
 
-" display
-colorscheme molokai
-"let g:molokai_original=1
-set wrap
-if version >= 703
-    set colorcolumn=105
-endif
+" vimrc syntax highlight for specific files
+au BufNewFile,BufRead .vim/vimrc/* set filetype=vim
+
+source $HOME/.vim/vimrc/colors
 
 " useful (some are usually default)
 set encoding=utf-8
@@ -82,19 +79,7 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 
 
-"""" LaTeX 
-" necessary for latex in windows
-set shellslash
-" empty tex files should be tex instead of plaintext
-let g:tex_flavor='latex'
-let g:Tex_MultipleCompileFormats = 'dvi,pdf'
-let g:Tex_DefaultTargetFormat = 'pdf'
-"bib
-let g:Tex_BibtexFlavor = 'bibtex'
-let g:Tex_CompileRule_bib = g:Tex_BibtexFlavor . ' $*'
-"" custom cmd mappings
-" acronyms
-let g:Tex_Com_acro = "\\acro{<++>}{<++>}<++>"
+source $HOME/.vim/vimrc/latex
 
 """" nerdtree
 let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$']
