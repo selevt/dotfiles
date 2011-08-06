@@ -1,9 +1,5 @@
 set pastetoggle=<F2>
 
-" edit/reload of vimrc file
-nmap <silent> <leader>ev :e $MYVIMRC<CR>
-nmap <silent> <leader>sv :so $MYVIMRC<CR>
-
 " post sudo
 cmap w!! w !sudo tee % >/dev/null
 
@@ -13,19 +9,24 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" map öö to esc in input mode
+" map öö to esc in input mode - fallback for german layout
 imap öö <esc>
 
 " (windows) paste
 map <silent> <leader>p i<F2><C-r>+<F2><esc>
 
+" edit/reload of vimrc file
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+
 """"" leader functions
 nmap <leader>l :set list!<CR>
 set listchars=tab:¿\ ,eol:¬,trail:·
+
 nmap <leader>r :set relativenumber<CR>
 nmap <leader>m :q<CR><C-w>jf{lyt,:q<CR><C-w>lp
 
 
 """"" macros
-" macro for RST-style headers
+" macro for restructuredText-style headers
 let @h = "yypVr"
