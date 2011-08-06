@@ -14,9 +14,14 @@ directory
 
 Content
 -------
-* nothing
+* VIM config and plugins:
+ * nerd commenter
+ * nerd tree
+ * vim-latex
+ * vst (vim restructured text)
 
 TODO
 ----
 * move .bashrc / .zshrc files
 * move .vimrc .vim files
+* create script to remove/backup old files in ~
