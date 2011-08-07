@@ -27,6 +27,5 @@ TODO
 * create script to remove/backup old files in ~
 * VIM
  * document everything
- * document plugin versions
  * add script to automatically updates modules
  * make it work with windows
