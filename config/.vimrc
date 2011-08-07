@@ -1,14 +1,15 @@
 " .vimrc file
 
+set nocompatible
+
 " pathogen for bundles
 filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
 " essential
-let mapleader=","
-set nocompatible
-set modelines=0
+let mapleader=","   " set leader key to ','
+set modelines=0     " turn off modelines (text in files to override settings)
 
 " vimrc syntax highlight for specific files
 au BufNewFile,BufRead */.vim/vimrc/* set filetype=vim
@@ -16,7 +17,7 @@ au BufNewFile,BufRead */.vim/vimrc/* set filetype=vim
 source $HOME/.vim/vimrc/ui
 source $HOME/.vim/vimrc/basic
 
-" tab -> bracket pairs
+" tab key moves between matching bracket pairs in normal mode
 nnoremap <tab> %
 vnoremap <tab> %
 

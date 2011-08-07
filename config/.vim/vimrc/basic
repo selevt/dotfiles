@@ -30,11 +30,13 @@ set shiftwidth=4
 set softtabstop=4
 
 " search options
+" default is regex search
 nnoremap / /\v
 vnoremap / /\v
 set ignorecase
 set gdefault                " use /g option by default for :s
-set incsearch               " show hl increments when typing
-set showmatch
-set hlsearch
+set incsearch               " incremental search (search while type)
+set showmatch               " briefly show matching bracket
+set hlsearch                " show highlighted result after search
+" clear search result with ,/
 nmap <silent> <leader>/ :nohlsearch<CR>
