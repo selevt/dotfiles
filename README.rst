@@ -5,6 +5,10 @@ My dotfiles and scripts
 
 Usage
 -----
+grab included submodules::
+
+    git submodule update --init
+
 from inside the dotfiles directory::
 
     ./link.sh
