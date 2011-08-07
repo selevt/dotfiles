@@ -20,6 +20,7 @@ Content
  * nerd tree (Version: 4.1.0)
  * vim-latex (Version: vim-latex-1.8.23-20100129-r1104)
  * vst (vim restructured text) (Version: 1.4)
+ * zencoding-vim (Version: 0.53)
 
 TODO
 ----
