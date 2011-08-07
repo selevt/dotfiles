@@ -28,5 +28,5 @@ TODO
 * create script to remove/backup old files in ~
 * VIM
  * document everything
- * add script to automatically updates modules
  * make it work with windows
+ * add: snipmate, command-t
