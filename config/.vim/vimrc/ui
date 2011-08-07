@@ -1,0 +1,16 @@
+" display configuration
+"
+
+colorscheme molokai
+"let g:molokai_original=1
+
+" break lines when longer than screen
+set wrap
+
+" show a colored column to restrict too long lines
+if version >= 703
+    set colorcolumn=105
+endif
+
+" special list characters
+set listchars=tab:¿\ ,eol:¬,trail:·

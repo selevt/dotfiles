@@ -21,7 +21,6 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
 """"" leader functions
 nmap <leader>l :set list!<CR>
-set listchars=tab:¿\ ,eol:¬,trail:·
 
 nmap <leader>r :set relativenumber<CR>
 nmap <leader>m :q<CR><C-w>jf{lyt,:q<CR><C-w>lp
