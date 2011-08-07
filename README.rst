@@ -16,7 +16,7 @@ Content
 -------
 * VIM config and plugins:
  * color: molokai
- * nerd commenter (Version: Git, 25. September 2010)
+ * nerd commenter (Version: 2.3.0)
  * nerd tree (Version: 4.1.0)
  * vim-latex (Version: vim-latex-1.8.23-20100129-r1104)
  * vst (vim restructured text) (Version: 1.4)
