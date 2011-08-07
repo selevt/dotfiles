@@ -13,7 +13,7 @@ set modelines=0
 " vimrc syntax highlight for specific files
 au BufNewFile,BufRead */.vim/vimrc/* set filetype=vim
 
-source $HOME/.vim/vimrc/colors
+source $HOME/.vim/vimrc/ui
 source $HOME/.vim/vimrc/basic
 
 " tab -> bracket pairs
