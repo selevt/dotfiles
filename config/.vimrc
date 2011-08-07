@@ -13,6 +13,8 @@ set modelines=0     " turn off modelines (text in files to override settings)
 
 " vimrc syntax highlight for specific files
 au BufNewFile,BufRead */.vim/vimrc/* set filetype=vim
+" shell syntax for specific bash files
+au BufNewFile,BufRead */dotfiles/sh/* set filetype=sh
 
 source $HOME/.vim/vimrc/ui
 source $HOME/.vim/vimrc/basic
