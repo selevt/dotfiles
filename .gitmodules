@@ -1,6 +1,6 @@
 [submodule "config/.vim/bundle/zencoding-vim"]
 	path = config/.vim/bundle/zencoding-vim
-	url = http://github.com/mattn/zencoding-vim.git
+	url = https://github.com/mattn/zencoding-vim.git
 [submodule "config/.vim/bundle/nerdtree"]
 	path = config/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
