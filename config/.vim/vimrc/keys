@@ -1,5 +1,9 @@
 set pastetoggle=<F2>
 
+" tab key moves between matching bracket pairs in normal mode
+nnoremap <tab> %
+vnoremap <tab> %
+
 " post sudo
 cmap w!! w !sudo tee % >/dev/null
 

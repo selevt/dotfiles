@@ -21,10 +21,6 @@ au BufNewFile,BufRead */dotfiles/sh/* set filetype=sh
 let ConfigBase = split(&runtimepath, ',')[0] 
 exec "source " substitute(glob(ConfigBase . "/vimrc/*"), "\n", "\nsource ", "g") 
 
-" tab key moves between matching bracket pairs in normal mode
-nnoremap <tab> %
-vnoremap <tab> %
-
 """" nerdtree
 let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$']
 map <F3> :NERDTreeToggle<CR>
