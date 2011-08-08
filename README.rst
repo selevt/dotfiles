@@ -35,7 +35,7 @@ TODO
 * create script to remove/backup old files in ~
 * VIM
  * document everything
- * make it work with windows
  * add: snipmate, command-t
+ * handle filetype specific indentation
 * scripts
  * add virtualenvwrapper?
