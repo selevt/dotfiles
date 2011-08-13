@@ -10,3 +10,6 @@
 [submodule "config/.vim/bundle/surround"]
 	path = config/.vim/bundle/surround
 	url = https://github.com/tpope/vim-surround
+[submodule "config/.vim/bundle/repeat"]
+	path = config/.vim/bundle/repeat
+	url = https://github.com/tpope/vim-repeat.git
