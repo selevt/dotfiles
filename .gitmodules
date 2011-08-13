@@ -13,3 +13,6 @@
 [submodule "config/.vim/bundle/repeat"]
 	path = config/.vim/bundle/repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "config/.vim/bundle/vst"]
+	path = config/.vim/bundle/vst
+	url = https://github.com/vim-scripts/VST
