@@ -35,7 +35,7 @@ TODO
 * create script to remove/backup old files in ~
 * VIM
  * document everything
- * add: snipmate, command-t
+ * add: snipmate, command-t, (matchit, matchit_python)?
  * handle filetype specific indentation
 * scripts
  * add virtualenvwrapper?
