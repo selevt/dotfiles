@@ -4,8 +4,8 @@ set nocompatible
 
 " pathogen for bundles
 filetype off
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " essential
 let mapleader=","   " set leader key to ','
