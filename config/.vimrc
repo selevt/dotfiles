@@ -25,3 +25,5 @@ exec "source " substitute(glob(ConfigBase . "/vimrc/*"), "\n", "\nsource ", "g")
 let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$']
 map <F3> :NERDTreeToggle<CR>
 
+" put diary files into year/month subdirectories. testing TBD
+"let g:vimwiki_list=[{'diary_rel_path':'diary/'.strftime("%Y/%m/"), 'diary_index': '../../diary'}]
