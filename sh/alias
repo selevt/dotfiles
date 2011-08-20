@@ -27,6 +27,7 @@ alias gdf="git diff"
 alias gcm="git commit"
 alias gpsh="git push"
 
+alias o="xdg-open"
 
 ### functions
 
