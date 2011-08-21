@@ -22,7 +22,7 @@ let ConfigBase = split(&runtimepath, ',')[0]
 exec "source " substitute(glob(ConfigBase . "/vimrc/*"), "\n", "\nsource ", "g") 
 
 """" nerdtree
-let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$']
+let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$', '\.swp', '\.pyc']
 map <F3> :NERDTreeToggle<CR>
 
 " put diary files into year/month subdirectories. testing TBD
