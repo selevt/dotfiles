@@ -19,3 +19,6 @@
 [submodule "config/.vim/bundle/snipmate"]
 	path = config/.vim/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim
+[submodule "config/.vim/bundle/pyflakes"]
+	path = config/.vim/bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes-vim.git

@@ -7,7 +7,7 @@ Usage
 -----
 grab included submodules::
 
-    git submodule update --init
+    git submodule update --init --recursive
 
 from inside the dotfiles directory::
 
@@ -22,6 +22,8 @@ Content
  * color: molokai
  * nerd commenter (Version: git-linked)
  * nerd tree (Version: git-linked)
+ * pyflakes (Version: git-linked)
+ * snipmate (Version: git-linked)
  * vim-latex (Version: vim-latex-1.8.23-20100129-r1104)
  * vst (vim restructured text) (Version: 1.4)
  * zencoding-vim (Version: git-linked)
@@ -35,7 +37,7 @@ TODO
 * create script to remove/backup old files in ~
 * VIM
  * document everything
- * add: snipmate, command-t, (matchit, matchit_python)?
+ * add: command-t, (matchit, matchit_python)?
  * handle filetype specific indentation
 * scripts
  * add virtualenvwrapper?
