@@ -22,3 +22,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 # - enable vertical tabs when available,
 # - disable restrictions on local file access
 export CHROMIUM_USER_FLAGS="--password-store=detect --enable-vertical-tabs --allow-file-access-from-files"
+
+if [ -f ~/dotfiles/sh/envlocal ] ; then
+    source ~/dotfiles/sh/envlocal
+fi
