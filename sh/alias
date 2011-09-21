@@ -39,7 +39,7 @@ function take {
 }
 
 # show manpage for previous command, if no cmd is specified
-mana() {
+m() {
     if [ "$1" ] ; then
         man $*
     else
