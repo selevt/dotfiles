@@ -15,8 +15,6 @@ export JDK_HOME=/usr/lib/jvm/java-6-sun
 # python virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
 
-source /usr/local/bin/virtualenvwrapper.sh
-
 # chrome settings
 # - use native password store
 # - enable vertical tabs when available,
