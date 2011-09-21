@@ -27,6 +27,7 @@ alias gdf="git diff"
 alias gcm="git commit"
 alias gpsh="git push"
 
+# desktop integration
 alias o="xdg-open"
 
 ### functions
@@ -35,6 +36,19 @@ alias o="xdg-open"
 function take {
   mkdir $1
   cd $1
+}
+
+# show manpage for previous command, if no cmd is specified
+mana() {
+    if [ "$1" ] ; then
+        man $*
+    else
+        if [ -n "${BASH_VERSION}" ]; then
+            man `history 2 | awk '{ print $2 }'`
+        elif [ -n "${ZSH_VERSION}" ]; then
+            man `history -n -1 | awk '{ print $1 }'`
+        fi
+    fi
 }
 
 # ex - archive extractor
