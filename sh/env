@@ -1,5 +1,8 @@
 ##### environment settings
 
+# add scripts to PATH
+export PATH=$PATH:~/dotfiles/scripts
+
 # editor 
 export EDITOR="vim"
 export VISUAL="vim"
