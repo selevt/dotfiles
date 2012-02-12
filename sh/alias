@@ -23,6 +23,8 @@ alias free='free -m'                # show sizes in MB
 
 # git aliases
 alias gst="git status"
+alias gbr="git branch"
+alias gco="git checkout"
 alias gdf="git diff"
 alias gcm="git commit"
 alias gpsh="git push"
