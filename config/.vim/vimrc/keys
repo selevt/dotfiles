@@ -13,6 +13,7 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+
 " map öö to esc in input mode - fallback for german layout
 imap öö <esc>
 
@@ -22,6 +23,10 @@ map <silent> <leader>p i<F2><C-r>+<F2><esc>
 " edit/reload of vimrc file
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
+"
+""""" modify core commands
+" behaviour of Y like other capitals
+map Y y$
 
 """"" leader functions
 nmap <leader>l :set list!<CR>
