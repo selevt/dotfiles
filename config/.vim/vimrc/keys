@@ -13,7 +13,6 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-
 " map öö to esc in input mode - fallback for german layout
 imap öö <esc>
 
@@ -27,6 +26,10 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 """"" modify core commands
 " behaviour of Y like other capitals
 map Y y$
+
+" reselect visual block after indent/outdent
+vnoremap < <gv
+vnoremap > >gv
 
 """"" leader functions
 nmap <leader>l :set list!<CR>
