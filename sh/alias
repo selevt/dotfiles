@@ -30,7 +30,7 @@ alias gcm="git commit"
 alias gpsh="git push"
 
 # python shells for virtualenv
-alias bpython="python -m bpython.cli"
+function bpython() { python -m bpython.cli $@ }
 alias ipython="python -c 'import IPython; IPython.embed()'"
 
 # desktop integration
