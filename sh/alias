@@ -29,6 +29,10 @@ alias gdf="git diff"
 alias gcm="git commit"
 alias gpsh="git push"
 
+# python shells for virtualenv
+alias bpython="python -m bpython.cli"
+alias ipython="python -c 'import IPython; IPython.embed()'"
+
 # desktop integration
 alias o="xdg-open"
 
