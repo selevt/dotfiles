@@ -11,11 +11,6 @@ call pathogen#helptags()
 let mapleader=","   " set leader key to ','
 set modelines=0     " turn off modelines (text in files to override settings)
 
-" vimrc syntax highlight for specific files
-au BufNewFile,BufRead */.vim/vimrc/* set filetype=vim
-" shell syntax for specific bash files
-au BufNewFile,BufRead */dotfiles/sh/* set filetype=sh
-
 " source every file in [.vim|vimfiles]/vimrc/ directory
 " used to split up vimrc file
 let ConfigBase = split(&runtimepath, ',')[0] 
