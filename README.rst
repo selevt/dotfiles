@@ -19,7 +19,7 @@ directory
 Content
 -------
 * VIM config and plugins:
- * color: molokai
+ * color: Tomorrow-Night
  * nerd commenter (Version: git-linked)
  * nerd tree (Version: git-linked)
  * pyflakes (Version: git-linked)
