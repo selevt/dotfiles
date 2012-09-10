@@ -1,8 +1,7 @@
 " display configuration
 "
 
-colorscheme molokai
-"let g:molokai_original=1
+colorscheme Tomorrow-Night
 
 " break lines when longer than screen
 set wrap
