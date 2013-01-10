@@ -1,7 +1,7 @@
 " display configuration
 "
 
-colorscheme Tomorrow-Night
+colorscheme zenburn
 
 " break lines when longer than screen
 set wrap
