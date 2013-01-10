@@ -22,3 +22,6 @@
 [submodule "config/.vim/bundle/pyflakes"]
 	path = config/.vim/bundle/pyflakes
 	url = https://github.com/kevinw/pyflakes-vim.git
+[submodule "config/.vim/bundle/golang"]
+	path = config/.vim/bundle/golang
+	url = https://github.com/jnwhiteh/vim-golang.git
