@@ -1,5 +1,7 @@
 ##### environment settings
 
+export LANG=en_US.UTF-8
+
 # add scripts to PATH
 export PATH=$PATH:~/dotfiles/scripts
 
