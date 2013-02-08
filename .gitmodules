@@ -1,27 +1,27 @@
-[submodule "config/.vim/bundle/zencoding-vim"]
-	path = config/.vim/bundle/zencoding-vim
-	url = https://github.com/mattn/zencoding-vim.git
-[submodule "config/.vim/bundle/nerdtree"]
-	path = config/.vim/bundle/nerdtree
+[submodule "config/.vim.symlink/bundle/zencoding-vim"]
+	path = config/.vim.symlink/bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding.vim.git
+[submodule "config/.vim.symlink/bundle/nerdtree"]
+	path = config/.vim.symlink/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule "config/.vim/bundle/nerdcommenter"]
-	path = config/.vim/bundle/nerdcommenter
+[submodule "config/.vim.symlink/bundle/nerdcommenter"]
+	path = config/.vim.symlink/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "config/.vim/bundle/surround"]
-	path = config/.vim/bundle/surround
-	url = https://github.com/tpope/vim-surround
-[submodule "config/.vim/bundle/repeat"]
-	path = config/.vim/bundle/repeat
-	url = https://github.com/tpope/vim-repeat.git
-[submodule "config/.vim/bundle/vst"]
-	path = config/.vim/bundle/vst
-	url = https://github.com/vim-scripts/VST
-[submodule "config/.vim/bundle/snipmate"]
-	path = config/.vim/bundle/snipmate
+[submodule "config/.vim.symlink/bundle/surround"]
+	path = config/.vim.symlink/bundle/surround
+	url = https://github.com/tpope.vim-surround
+[submodule "config/.vim.symlink/bundle/repeat"]
+	path = config/.vim.symlink/bundle/repeat
+	url = https://github.com/tpope.vim-repeat.git
+[submodule "config/.vim.symlink/bundle/vst"]
+	path = config/.vim.symlink/bundle/vst
+	url = https://github.com.vim-scripts/VST
+[submodule "config/.vim.symlink/bundle/snipmate"]
+	path = config/.vim.symlink/bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim
-[submodule "config/.vim/bundle/pyflakes"]
-	path = config/.vim/bundle/pyflakes
-	url = https://github.com/kevinw/pyflakes-vim.git
-[submodule "config/.vim/bundle/golang"]
-	path = config/.vim/bundle/golang
-	url = https://github.com/jnwhiteh/vim-golang.git
+[submodule "config/.vim.symlink/bundle/pyflakes"]
+	path = config/.vim.symlink/bundle/pyflakes
+	url = https://github.com/kevinw/pyflakes.vim.git
+[submodule "config/.vim.symlink/bundle/golang"]
+	path = config/.vim.symlink/bundle/golang
+	url = https://github.com/jnwhiteh.vim-golang.git
