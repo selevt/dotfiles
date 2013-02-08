@@ -7,4 +7,4 @@ au BufNewFile,BufRead */dotfiles/sh/* set filetype=sh
 au BufNewFile,BufRead *.gradle setf groovy
 
 " format golang files on save
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
+au FileType go autocmd BufWritePre <buffer> Fmt
