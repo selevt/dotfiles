@@ -1,3 +1,4 @@
+backups/
 .netrwhist
 config/.vim/bundle/*/doc/tags
-*.local
+*.local*
