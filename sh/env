@@ -26,6 +26,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 # - disable restrictions on local file access
 export CHROMIUM_USER_FLAGS="--password-store=detect --enable-vertical-tabs --allow-file-access-from-files"
 
-if [ -f ~/dotfiles/sh/envlocal ] ; then
-    source ~/dotfiles/sh/envlocal
+if [ -f ~/dotfiles/sh/env.local ] ; then
+    source ~/dotfiles/sh/env.local
 fi
