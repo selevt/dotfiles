@@ -10,9 +10,6 @@
 [submodule "config/.vim.symlink/bundle/surround"]
 	path = config/.vim.symlink/bundle/surround
 	url = https://github.com/tpope.vim-surround
-[submodule "config/.vim.symlink/bundle/repeat"]
-	path = config/.vim.symlink/bundle/repeat
-	url = https://github.com/tpope.vim-repeat.git
 [submodule "config/.vim.symlink/bundle/vst"]
 	path = config/.vim.symlink/bundle/vst
 	url = https://github.com.vim-scripts/VST
