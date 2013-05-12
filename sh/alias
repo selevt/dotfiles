@@ -25,14 +25,9 @@ alias df='df -h'                    # human-readable sizes
 alias free='free -m'                # show sizes in MB
 
 # git aliases
-alias gst="git status"
-alias gbr="git branch"
-alias gco="git checkout"
 alias gdf="git diff"
-alias gcm="git commit"
-alias gpsh="git push"
 alias glog="git log"
-alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
+alias glg2="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
 
 # python shells for virtualenv
 function bpython() { python -m bpython.cli $@ }
