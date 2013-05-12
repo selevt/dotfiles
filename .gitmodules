@@ -1,6 +1,6 @@
 [submodule "config/.vim.symlink/bundle/zencoding-vim"]
 	path = config/.vim.symlink/bundle/zencoding-vim
-	url = https://github.com/mattn/zencoding.vim.git
+	url = https://github.com/mattn/zencoding-vim.git
 [submodule "config/.vim.symlink/bundle/nerdtree"]
 	path = config/.vim.symlink/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -9,7 +9,7 @@
 	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "config/.vim.symlink/bundle/surround"]
 	path = config/.vim.symlink/bundle/surround
-	url = https://github.com/tpope.vim-surround
+	url = https://github.com/tpope/vim-surround.git
 [submodule "config/.vim.symlink/bundle/vst"]
 	path = config/.vim.symlink/bundle/vst
-	url = https://github.com.vim-scripts/VST
+	url = https://github.com/vim-scripts/VST.git
