@@ -1,4 +1,4 @@
-#/bin/sh
+#/bin/bash
 
 # Creates a symlink for every file and directory that ends with .symlink
 # Existing files will be moved into the 'TARGET_BACKUPS' directory.
@@ -7,20 +7,20 @@ TARGET=~
 # script changes to BASEDIR, so backups reside in that folder
 TARGET_BACKUPS=./backups
 
-function main {
+function main() {
   # make sure to be in the right working directory
   cd $BASEDIR
   tree -afi | grep ".symlink$" | sed 's:./config/::' | sed 's:.symlink::' | create_symlinks
 }
 
-function create_symlinks {
+function create_symlinks() {
   cat - | while read LINE
   do
       create_symlink ${LINE}
   done
 }
 
-function create_symlink {
+function create_symlink() {
   link_target=$TARGET/$1
   parent_dir=`dirname $link_target`
 
@@ -36,7 +36,7 @@ function create_symlink {
   ln -s $(pwd)/config/$1.symlink $link_target
 }
 
-function backup {
+function backup() {
   # copy file into backup directory with appended timestamp
   if [ -e $1 ]; then
       if [ ! -d $TARGET_BACKUPS ];  then
