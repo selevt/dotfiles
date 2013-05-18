@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/dotfiles/sh/oh-my-zsh
+ZSH_CUSTOM=~/dotfiles/sh/zsh-custom/
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -48,7 +49,6 @@ plugins=(git vi-mode)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-ZSH_CUSTOM=~/dotfiles/sh/zsh-custom/
 
 # I'm used to c-r.
 bindkey '^R' history-incremental-search-backward
