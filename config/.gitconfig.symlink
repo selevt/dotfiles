@@ -8,3 +8,5 @@
 	default = tracking
 [include]
 	path = ~/.gitconfig.local
+[core]
+	pager = less -F -X
