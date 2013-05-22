@@ -52,3 +52,6 @@ source $ZSH/oh-my-zsh.sh
 
 # I'm used to c-r.
 bindkey '^R' history-incremental-search-backward
+
+# lines starting with # shall be a comment
+set -k
