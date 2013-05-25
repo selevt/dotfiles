@@ -55,3 +55,6 @@ bindkey '^R' history-incremental-search-backward
 
 # lines starting with # shall be a comment
 set -k
+
+# don't put commands starting with a space into history
+setopt hist_ignore_space
