@@ -16,37 +16,37 @@ function main() {
 function create_symlinks() {
   cat - | while read LINE
   do
-      create_symlink ${LINE}
+      create_symlink "${LINE}"
   done
 }
 
 function create_symlink() {
   link_target=$TARGET/$1
-  parent_dir=`dirname $link_target`
+  parent_dir=`dirname "$link_target"`
 
   # create parent dir in case it doesn't exist
-  if [ ! -d $parent_dir ]; then
+  if [ ! -d "$parent_dir" ]; then
       echo "Parent of dotfile doesn't exist. Creating: $parent_dir"
-      mkdir -p $parent_dir
+      mkdir -p "$parent_dir"
   fi
 
   # move file to backup directory when it exists
-  backup $link_target
+  backup "$link_target"
 
-  ln -s $(pwd)/config/$1.symlink $link_target
+  ln -s "$(pwd)/config/$1.symlink" "$link_target"
 }
 
 function backup() {
   # copy file into backup directory with appended timestamp
-  if [ -e $1 ]; then
+  if [ -e "$1" ]; then
       if [ ! -d $TARGET_BACKUPS ];  then
           mkdir $TARGET_BACKUPS
       fi
 
-      target_filename=`basename $1`.`date +%s`
+      target_filename=`basename "$1"`.`date +%s`
       echo "File '$1' already exists. Moving to backup directory: '$target_filename'"
 
-      mv $1 $TARGET_BACKUPS/$target_filename
+      mv "$1" "$TARGET_BACKUPS/$target_filename"
   fi
 }
 
