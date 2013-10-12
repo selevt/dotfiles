@@ -1,7 +1,8 @@
 {
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"font_size": 10,
 	"ignored_packages":
 	[
 		"Vintage"
 	]
 }
-
