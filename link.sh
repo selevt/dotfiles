@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Creates a symlink for every file and directory that ends with .symlink
 # Existing files will be moved into the 'TARGET_BACKUPS' directory.
