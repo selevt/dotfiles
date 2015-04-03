@@ -9,6 +9,8 @@ let ConfigBase = split(&runtimepath, ',')[0]
 let VundlePath = ConfigBase . "/bundle/Vundle.vim"
 let &runtimepath=&runtimepath . ',' . VundlePath
 call vundle#begin()
+exec "source " ConfigBase . "/plugins"
+call vundle#end() 
 
 " essential
 let mapleader=","   " set leader key to ','
@@ -17,8 +19,6 @@ set modelines=0     " turn off modelines (text in files to override settings)
 " source every file in [.vim|vimfiles]/vimrc/ directory
 " used to split up vimrc file
 exec "source " substitute(glob(ConfigBase . "/vimrc/*"), "\n", "\nsource ", "g") 
-
-call vundle#end() 
 
 """" nerdtree
 let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$', '\.swp', '\.pyc']
