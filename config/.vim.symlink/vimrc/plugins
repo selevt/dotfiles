@@ -1,0 +1,6 @@
+Plugin 'gmarik/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-surround'
+Plugin 'vim-scripts/VST'
+Plugin 'mattn/emmet-vim'

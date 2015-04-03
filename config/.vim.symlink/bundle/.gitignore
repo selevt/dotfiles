@@ -1,0 +1,4 @@
+# Bundles are installed by vundle, so that's the only one to keep in the repo
+*
+!.gitignore
+!Vundle.vim

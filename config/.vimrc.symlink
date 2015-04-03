@@ -1,11 +1,14 @@
 " .vimrc file
 
 set nocompatible
-
-" pathogen for bundles
 filetype off
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+
+let ConfigBase = split(&runtimepath, ',')[0] 
+
+" Vundles
+let VundlePath = ConfigBase . "/bundle/Vundle.vim"
+let &runtimepath=&runtimepath . ',' . VundlePath
+call vundle#begin()
 
 " essential
 let mapleader=","   " set leader key to ','
@@ -13,8 +16,9 @@ set modelines=0     " turn off modelines (text in files to override settings)
 
 " source every file in [.vim|vimfiles]/vimrc/ directory
 " used to split up vimrc file
-let ConfigBase = split(&runtimepath, ',')[0] 
 exec "source " substitute(glob(ConfigBase . "/vimrc/*"), "\n", "\nsource ", "g") 
+
+call vundle#end() 
 
 """" nerdtree
 let NERDTreeIgnore=['\.aux$', '\.bbl$', '\.blg$', '\.lof$', '\.lol$', '\.out$', '\.toc$', '\.lot$', '\.tdo$', '\.pdf$', '\.idx$', '\.nlo$', '\.brf$', '\.ilg$', '\.ind$', '\.docx$', '\.swp', '\.pyc']

@@ -1,18 +1,6 @@
-[submodule "config/.vim.symlink/bundle/nerdtree"]
-	path = config/.vim.symlink/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
-[submodule "config/.vim.symlink/bundle/nerdcommenter"]
-	path = config/.vim.symlink/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "config/.vim.symlink/bundle/surround"]
-	path = config/.vim.symlink/bundle/surround
-	url = https://github.com/tpope/vim-surround.git
-[submodule "config/.vim.symlink/bundle/vst"]
-	path = config/.vim.symlink/bundle/vst
-	url = https://github.com/vim-scripts/VST.git
 [submodule "sh/oh-my-zsh"]
 	path = sh/oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
-[submodule "config/.vim.symlink/bundle/emmet-vim"]
-	path = config/.vim.symlink/bundle/emmet-vim
-	url = https://github.com/mattn/emmet-vim.git
+[submodule "config/.vim.symlink/bundle/Vundle.vim"]
+	path = config/.vim.symlink/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
