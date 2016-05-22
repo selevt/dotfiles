@@ -36,6 +36,13 @@ alias ipython="python -c 'import IPython; IPython.embed()'"
 # desktop integration
 alias o="xdg-open"
 
+# Arch Linux specifics
+alias pac="pacaur"
+alias pacsyu="pacaur -Syu"
+
+
+alias syncstate="watch grep -e Dirty: -e Writeback: /proc/meminfo"
+
 ### functions
 
 # create directory and cd inside
