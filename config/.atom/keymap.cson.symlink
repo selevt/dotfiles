@@ -1,0 +1,3 @@
+# Disable from emmet to prefer markdown preview
+'atom-text-editor:not([mini])':
+  'ctrl-shift-M': 'unset!'
