@@ -1,3 +1,12 @@
 # Disable from emmet to prefer markdown preview
 'atom-text-editor:not([mini])':
   'ctrl-shift-M': 'unset!'
+
+# Disable vim mode bindings
+# Search with ctrl-f
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-f': 'unset!'
+
+# normal copy
+'atom-text-editor.vim-mode':
+  'ctrl-c': 'unset!'
