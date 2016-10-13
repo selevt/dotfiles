@@ -10,7 +10,7 @@ TARGET_BACKUPS=./backups
 function main() {
   # make sure to be in the right working directory
   cd $BASEDIR
-  tree -afi ./config | grep ".symlink$" | sed 's:./config/::' | sed 's:.symlink::' | create_symlinks
+  find ./config | grep ".symlink$" | sed 's:./config/::' | sed 's:.symlink::' | create_symlinks
 }
 
 function create_symlinks() {
