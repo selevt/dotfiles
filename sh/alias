@@ -35,6 +35,8 @@ alias ipython="python -c 'import IPython; IPython.embed()'"
 
 # desktop integration
 alias o="xdg-open"
+# pipe through printf to trim trailing newlines
+alias clip='{ read test; printf %s "$test" } | xclip -selection clipboard'
 
 # Arch Linux specifics
 alias pac="pacaur"
