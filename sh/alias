@@ -8,10 +8,15 @@ alias ....="cd ../../.."
 # reload shell config
 alias sourcesh="source ~/.zshrc"
 
-# ls
-alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
-alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
-alias la='ls -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
+# use coreutils ls for mac 
+case "$OSTYPE" in
+  darwin*)  LS_CMD="gls" ;;
+  *)        LS_CMD="ls" ;;
+esac
+
+alias ls=$LS_CMD' --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
+alias ll=$LS_CMD' -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
+alias la=$LS_CMD' -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 
 # screen rotation 
 alias landscape="xrandr -o normal"
