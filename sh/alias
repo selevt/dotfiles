@@ -8,7 +8,11 @@ alias ....="cd ../../.."
 # reload shell config
 alias sourcesh="source ~/.zshrc"
 
-# use coreutils ls for mac 
+# prefer coreutils on mac
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    alias readlink=greadlink
+fi
+
 case "$OSTYPE" in
   darwin*)  LS_CMD="gls" ;;
   *)        LS_CMD="ls" ;;
