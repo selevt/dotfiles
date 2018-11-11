@@ -43,7 +43,12 @@ function bpython() { python -m bpython.cli $@ }
 alias ipython="python -c 'import IPython; IPython.embed()'"
 
 # desktop integration
-alias o="xdg-open"
+
+case "$OSTYPE" in
+  darwin*)  alias o="open" ;;
+  *)        alias o="xdg-open" ;;
+esac
+
 # pipe through printf to trim trailing newlines
 alias clip='{ read test; printf %s "$test" } | xclip -selection clipboard'
 
