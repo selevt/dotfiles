@@ -9,10 +9,8 @@ ZSH_CUSTOM=~/dotfiles/sh/zsh-custom/
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="jnrowe"
 
-# Example aliases
 alias zshconfig="vim ~/.zshrc"
 alias zshsource=". ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"

@@ -1,30 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?p2f version='1.0.0'?>
 <p2f version='1.0.0'>
-  <ius size='5'>
-    <iu id='com.github.matf.relativenumberruler.feature.feature.group' name='Relative Line Number Ruler Feature' version='1.0.0.201205240947'>
+  <ius size='4'>
+    <iu id='net.sourceforge.vrapper.plugin.surround.feature.group' name='Vrapper - Surround.vim Plugin (Optional)' version='0.74.0'>
       <repositories size='1'>
-        <repository location='http://matf.github.com/relativenumberruler/updatesite'/>
+        <repository location='https://vrapper.sourceforge.net/update-site/stable'/>
       </repositories>
     </iu>
-    <iu id='net.sourceforge.vrapper.feature.group' name='Vrapper' version='0.34.1'>
+    <iu id='net.sourceforge.vrapper.eclipse.jdt.feature.feature.group' name='Vrapper - Java Extensions (Optional, requires JDT)' version='0.74.0'>
       <repositories size='1'>
-        <repository location='http://vrapper.sourceforge.net/update-site/stable'/>
+        <repository location='https://vrapper.sourceforge.net/update-site/stable'/>
       </repositories>
     </iu>
-    <iu id='net.sourceforge.vrapper.eclipse.jdt.feature.feature.group' name='Vrapper - Java Extensions (Optional, requires JDT)' version='0.34.1'>
+    <iu id='net.sourceforge.vrapper.feature.group' name='Vrapper' version='0.74.0'>
       <repositories size='1'>
-        <repository location='http://vrapper.sourceforge.net/update-site/stable'/>
+        <repository location='https://vrapper.sourceforge.net/update-site/stable'/>
       </repositories>
     </iu>
-    <iu id='net.sourceforge.vrapper.plugin.splitEditor.feature.group' name='Vrapper - Split Editor Plugin (Optional, requires Eclipse 4+)' version='0.34.1'>
+    <iu id='com.github.matf.relativenumberruler.feature.feature.group' name='Relative Line Number Ruler Feature' version='1.4.0.202309041254'>
       <repositories size='1'>
-        <repository location='http://vrapper.sourceforge.net/update-site/stable'/>
-      </repositories>
-    </iu>
-    <iu id='net.sourceforge.vrapper.plugin.surround.feature.group' name='Vrapper - Surround.vim Plugin (Optional)' version='0.34.1'>
-      <repositories size='1'>
-        <repository location='http://vrapper.sourceforge.net/update-site/stable'/>
+        <repository location='https://matf.github.io/relativenumberruler/updatesite/'/>
       </repositories>
     </iu>
   </ius>

@@ -14,8 +14,6 @@ export TERM=xterm-256color
 
 
 ##### application settings
-# java
-export JDK_HOME=/usr/lib/jvm/java-6-sun
 
 # python virtualenv
 export WORKON_HOME=$HOME/.virtualenvs
@@ -24,7 +22,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 # - use native password store
 # - enable vertical tabs when available,
 # - disable restrictions on local file access
-export CHROMIUM_USER_FLAGS="--password-store=detect --enable-vertical-tabs --allow-file-access-from-files"
+export CHROMIUM_USER_FLAGS="--password-store=detect --allow-file-access-from-files"
 
 if [ -f ~/dotfiles/sh/env.local ] ; then
     source ~/dotfiles/sh/env.local
