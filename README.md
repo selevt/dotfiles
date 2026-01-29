@@ -1,10 +1,12 @@
-Dotfiles
-========
+# Dotfiles
 
 My dotfiles and scripts
 
-Usage
------
+## Dependencies
+- [starship](https://starship.rs/)
+
+## Usage
+
 grab included submodules::
 
     git submodule update --init --recursive

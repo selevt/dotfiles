@@ -1,4 +1,5 @@
 ##### environment settings
+export STARSHIP_CONFIG=~/dotfiles/sh/starship.toml
 
 export LANG=en_US.UTF-8
 

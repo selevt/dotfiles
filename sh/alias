@@ -34,9 +34,29 @@ alias df='df -h'                    # human-readable sizes
 alias free='free -m'                # show sizes in MB
 
 # git aliases
+alias ga='git add'
+alias gaa='git add --all'
+alias gb='git branch'
+alias gba='git branch --all'
+alias gco='git checkout'
+alias gcp='git cherry-pick'
+alias gcpa='git cherry-pick --abort'
+alias gcpc='git cherry-pick --continue'
+alias gcl='git clone --recurse-submodules'
+alias gc='git commit --verbose'
 alias gdf="git diff"
+alias gf='git fetch'
 alias glog="git log"
+alias glgg='git log --graph'
 alias glg2="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit"
+alias gm='git merge'
+alias gma='git merge --abort'
+alias gms="git merge --squash"
+alias gp='git push'
+alias gpd='git push --dry-run'
+alias gst='git status'
+alias gsw='git switch'
+alias gswc='git switch --create'
 
 # python shells for virtualenv
 function bpython() { python -m bpython.cli $@ }

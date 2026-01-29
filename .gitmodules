@@ -1,6 +1,3 @@
-[submodule "sh/oh-my-zsh"]
-	path = sh/oh-my-zsh
-	url = https://github.com/ohmyzsh/ohmyzsh.git
 [submodule "config/.vim.symlink/bundle/Vundle.vim"]
 	path = config/.vim.symlink/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim.git
