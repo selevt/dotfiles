@@ -21,7 +21,6 @@ export WORKON_HOME=$HOME/.virtualenvs
 
 # chrome settings
 # - use native password store
-# - enable vertical tabs when available,
 # - disable restrictions on local file access
 export CHROMIUM_USER_FLAGS="--password-store=detect --allow-file-access-from-files"
 
