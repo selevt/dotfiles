@@ -57,6 +57,7 @@ alias gpd='git push --dry-run'
 alias gst='git status'
 alias gsw='git switch'
 alias gswc='git switch --create'
+alias gwt='git worktree'
 
 # python shells for virtualenv
 function bpython() { python -m bpython.cli $@ }
